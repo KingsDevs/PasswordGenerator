@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block passgen %}
+<h2>Generate Password: {{genpass}}</h2>
+
+<form action="#" method="GET">
+    <p>No. of characters: </p>
+    <p><input type="text" name="no-of-char" /></p>
+    <p><input type="submit" class="btn btn-primary btn-lg" value="Generate" /></p>
+    
+</form>
+{% endblock %}
+
